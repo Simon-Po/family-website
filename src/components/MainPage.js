@@ -7,7 +7,9 @@ const MainPage = () => {
     <div>
 
         <NavBar name="Simon Pohl" />
-        <Calender />
+        <div className=' m-4'>
+            <Calender  />
+        </div>
     </div>
   )
 }
